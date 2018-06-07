@@ -1,20 +1,20 @@
 #!/usr/bin/env python3
 
+__author__ = "Your Name"
+
 ###############################################################################
 #
-print("\nExercise 10.6\n")
+# Exercise 10.7
 #
-# Question 1
+#
+# Grading Guidelines:
+# - No answer variable is needed. Grading script will call function.
+# - Function "has_duplicates" should return True if a list has duplicates
+# or False if not.
+#
 # 1. Write a function called has_duplicates that takes a list and returns True
 # if there is any element that appears more than once. It should not modify the
 # original list.
 #
 def has_duplicates(li):
-    dic = {}
-    for item in li:
-        if item in dic:
-            return True
-        else:
-            dic[item] = 1
-
-print(has_duplicates(['a','b','c']))
+    return

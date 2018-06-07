@@ -1,10 +1,17 @@
 #!/usr/bin/env python3
 
+__author__ = "Your Name"
+
 ###############################################################################
 #
-print("\nExercise 10.10\n")
+# Exercise 10.10
 #
-# Question 1
+#
+# Grading Guidelines:
+# - No answer variable is needed. Grading script will call function.
+# - Function "in_bisect" should return the index in list where the word was
+# found
+# 
 # 1. To check whether a word is in the word list, you could use the in operator,
 # but it would be slow because it searches through the words in order. Because 
 # the words are in alphabetical order, we can speed things up with a bisection 
@@ -20,5 +27,8 @@ print("\nExercise 10.10\n")
 #
 # Write a function called in_bisect that takes a sorted list and a target value
 # and returns the index of the value in the list if it's there, or None if it's 
-# not. Or you could read the documentation of the bisect module and use that!
+# not.
 #
+
+def in_bisect(word_list, word):
+    return

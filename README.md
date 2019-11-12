@@ -1,59 +1,24 @@
 # Instructions
 
-Exercises 9.1-9.8 are all automatically graded using the `grade.py` script located within this folder. To grade and submit assignments, please follow the directions below:
+#Chapter 10
 
-Run the following commands in a `Cloud9` `terminal` tab:
+In these review exercises, you will be reviewing the basic Python techniques that are presented in the exercises of Think Python Chapter 10.
 
-Change into your repo directory
-> cd ~/environment/chapter-9-[username]
+Start by cloning the Chapter 10 Exercises into you local repository.
 
-(substitute [username] with your github username as noted in the name of your chapter 9 repo. ex: cd ~/environment/chapter-9-philip-ulrich)
+ $ cd ~
+ $ git clone https://github.com/cliffjsgit/chapter-10
+Once you have cloned this repo, you may proceed to the labs.
 
-Load the grading script
-> python3 grade.py
+ $ cd ~/chapter-10
+ ~/chapter-10 (master)$ ls
+ ...
+Create a solutions directory for your exercise solutions, in the chapter-10 directory.
 
-```
-The following exercises have been loaded: 9.1, 9.2, 9.3, 9.4, 9.5, 9.6, 9.7, 9.8. Which would you like to grade?
-[ ] Exercise 9.1
-[ ] Exercise 9.2
-[ ] Exercise 9.3
-[ ] Exercise 9.4
-[ ] Exercise 9.5
-[ ] Exercise 9.6
-[ ] Exercise 9.7
-[ ] Exercise 9.8
-    Enter q to exit
-Exercise (e.g. 9.1): 
-```
+ ~/chapter-10 (master)$ mkdir solutions
+Copy all of your final/completed chapter-10 lab exercise solutions from all exercise problems, and the words.txt file into the solutions directory.
 
-Enter the assignment you want to grade and press enter
-```
-Exercise (e.g. 9.1): 9.1
-```
-
-It will then tell you if it was correct or incorrect. If it was incorrect, it will ask if you want to submit anyway (i.e. you don't want to work on it anymore). Then it will ask if you want to grade another.
-```
-The exercise answer was incorrect. Did you still want to submit it? (y/n): y
-Exercise submitted. Would you like to submit another? (y/n): n
-```
-
-or
-```
-Exercise answer correct and submitted. Would you like to submit another? (y/n): n
-```
-
-Once an assignment has been submitted, you will see an "x" by the name of the exercise.
-
-```
-The following exercises have been loaded: 9.1, 9.2, 9.3, 9.4, 9.5, 9.6, 9.7, 9.8. Which would you like to grade?
-[x] Exercise 9.1
-[ ] Exercise 9.2
-[ ] Exercise 9.3
-[ ] Exercise 9.4
-[ ] Exercise 9.5
-[ ] Exercise 9.6
-[ ] Exercise 9.7
-[ ] Exercise 9.8
-    Enter q to exit
-Exercise (e.g. 9.1): 
-```
+ ~/chapter-10 (master)$ cp exercise*  solutions/ 
+ ~/chapter-10 (master)$ cp words.txt  solutions/
+ ...
+Make sure that you copy all of your completed exercise solutions and the words.txt file from this chapter into your single ~/chapter10/solutions directory, preserving the orignal file names of these files.

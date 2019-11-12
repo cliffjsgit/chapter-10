@@ -10,8 +10,10 @@ Start by cloning the Chapter 10 Exercises into you local repository.
  $ git clone https://github.com/cliffjsgit/chapter-10
 Once you have cloned this repo, you may proceed to the labs.
 
+
  $ cd ~/chapter-10
  ~/chapter-10 (master)$ ls
+ 
  ...
 Create a solutions directory for your exercise solutions, in the chapter-10 directory.
 
